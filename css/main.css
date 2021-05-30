@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background: #000000;
+}
+
+@font-face {
+    font-family: "Roboto", Sans-serif;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans", sans-serif;
+    src: url("../fonts/notosans.woff");
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main {
+    font-family: Roboto, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    padding: 103px 100px;
+}
+
+.header-container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1730px;
+    margin: 0 auto;
+}
+
+.menu-block a.item {
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #FFCD00;
+}
+
+.menu-block {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+}
+
+.menu .menu-block:first-child {
+    margin-right: 165px;
+}
+
+.menu .menu-block:last-child {
+    margin-left: 165px;
+}
+
+.menu-logo {
+    position: relative;
+    z-index: 2;
+}
+
+.menu-logo img {
+    width: 552px;
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 277px);
+}
+
+.act {
+    max-width: 1150px;
+    display: flex;
+    margin: 220px auto 166px auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+.act .btn {
+    width: 457px;
+    background: #FFCD00;
+    box-shadow: 0 6px 6px rgba(37, 160, 49, 0.3);
+    border-radius: 10px;
+    padding: 17px;
+    font-size: 32px;
+    color: #000000;
+    font-family: Sans-serif, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    outline: 0;
+    cursor: pointer;
+}
+
+.number {
+    margin: 0 auto;
+    max-width: 1920px;
+    text-align: center;
+}
+
+.number-agree {
+    font-size: 36px;
+    color: #FFFFFF;
+    width: 358px;
+    border: 1px solid #FFCD00;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 16px;
+}
+
+
+.footer {
+    background: #FFCD00;
+    font-size: 24px;
+    margin-top: 115px;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 44px 100px 37px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-description {
+    margin-right: 140px;
+}
+
+.footer-social_icon {
+    margin: 0 10px;
+}
+
+img#fon-car-one {
+    position: absolute;
+    top: -130px;
+    left: -394px;
+    z-index: -2;
+}
+
+img#fon-car-all {
+    position: absolute;
+    top: -196px;
+    right: -350px;
+    z-index: -1;
+}
+
+.service {
+    width: 254px;
+    font-size: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: none;
+}
